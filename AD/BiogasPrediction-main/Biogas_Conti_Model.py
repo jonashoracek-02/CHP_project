@@ -20,15 +20,15 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Input Data
 # Adapt the data in this section to project the biogas production pf your system
-VF = 500  # Input: volume of fermenter in m^3
-HRT1 = 20  # Input: hydraulic retention time Substrate Mix 1 (should be between 20 and 50 d)
+VF = 700  # Input: volume of fermenter in m^3
+HRT1 = 30  # Input: hydraulic retention time Substrate Mix 1 (should be between 20 and 50 d)
 HRT2 = 15  # Input: hydraulic retention time Substrate Mix 2 (should be between 20 and 50 d)
 HRT3 = 50  # Input: hydraulic retention time Substrate Mix 3 (should be between 20 and 50 d)
 HRT4 = 20  # Input: hydraulic retention time Substrate Mix 4 (should be between 20 and 50 d)
-tm = 30  # Input: time span for which the biogas production should be projected (d)
-tc1 = 30  # Input: day of substrate mixture change (d)
-tc2 = 30  # Input: day of substrate mixture change (d)
-tc3 = 30  # Input: day of substrate mixture change (d)
+tm = 200  # Input: time span for which the biogas production should be projected (d)
+tc1 = tm  # 180  # Input: day of substrate mixture change (d)
+tc2 = tm  # 180  # Input: day of substrate mixture change (d)
+tc3 = tm  # 180  # Input: day of substrate mixture change (d)
 
 BR = 3.5  # Input: organic loading rate (should be between 1.5 and 3.5 kgVS/m^3/d)
 Substrates1 = [
